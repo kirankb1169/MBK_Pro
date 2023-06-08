@@ -19,7 +19,7 @@
 </head>
 </head>
 <body>
-<marquee><h1 align="center" color="#7B3F00">Welcome to MBK InfoTech Solutions. Hyderabad, Telangana Heelloooooo, USA</h1> </marquee>
+<marquee><h1 align="center" color="#7B3F00">Welcome to MBK InfoTech Solutions. HELLO      Hyderabad, Telangana Heelloooooo, USA</h1> </marquee>
  
 <h1 align="center"> MBK InfoTech Solutions - Helll  ......Training center for software tools like Python, Java,Testing tool & Automation, DevOps with AWS,in Hyderabad India and also for Job Assitance Job Support also...Teaching Real Time scnerios</h1>
 <hr>
