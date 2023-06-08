@@ -7,6 +7,7 @@
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	
+	
 	<name>MBK-Maven-Web-Application</name>
 
 	<description>Maven Web Project for Java Project</description>
