@@ -70,7 +70,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		<img src="images/LOGO.jpg" alt="" width="100">
 	</span>
 	<span style="font-weight: bold;">
-		MBK InfoTech Solutions, 
+		<b> MBK InfoTech Solutions </b>, 
 		Madhapur, 
 		Hyderabad
 		+91-9844424739.
