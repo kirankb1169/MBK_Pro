@@ -75,7 +75,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		+91-9844424739.
 		mbkinfotechsolutions@gmail.com
 		<br>
-		<a href="mailto:mbkinfotechsolutions@gmail.com">Mail to mbk infotech solutions helllllll</a>
+		<a href="mailto:mbkinfotechsolutions@gmail.com">Mail to mbk infotech solutions </a>
 	</span>
 </div>
 <hr>
