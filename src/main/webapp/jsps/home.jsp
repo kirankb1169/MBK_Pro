@@ -37,7 +37,7 @@
 
     <button type="submit">Login</button>
     <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
+      <input type="checkbox" checked="checked" name="remember"> Remember me more
     </label>
   </div>
   <div class="container" style="background-color:#f1f1f1">
