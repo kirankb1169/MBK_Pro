@@ -82,7 +82,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
 <hr>
-<p align=center>MBK InfoTech Solutions - Consultant, Training, Development Center.</p>
+<p align=center>MBK InfoTech Solutions - Consultant, Training, Development </p>
 <p align=center><small>Copyrights 2022 by <a href="http://mbkinftech.com/">mbk InfoTech Solutions,Hyderabad</a> </small></p>
 
 </body>
