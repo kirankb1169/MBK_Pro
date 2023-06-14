@@ -15,7 +15,7 @@
 		<name>MBK InfoTech Solutions</name>
 		<url>http://mbkinfo.com/</url>
 	</organization>
-
+	
 	<properties>
 		<jdk.version>1.8</jdk.version>
 		<spring.version>5.1.2.RELEASE</spring.version>
