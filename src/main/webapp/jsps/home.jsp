@@ -71,8 +71,8 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 	<span style="font-weight: bold;">
 		MBK InfoTech Solutions, 
 		Madhapur, 
-		Hyderabad
-		+91-9844424739.
+		Hyderabad,
+		+91-9844424739.......
 		mbkinfotechsolutions@gmail.com
 		<br>
 		<a href="mailto:mbkinfotechsolutions@gmail.com">Mail to mbk infotech solutions </a>
