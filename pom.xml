@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.111.58.216:9000/</sonar.host.url>
+		<sonar.host.url>http://13.233.101.162:9000/</sonar.host.url>
 		<sonar.login>squ_db3b0e7de03151c18935e2b2945cce547d3ab4bc</sonar.login>
 		<!-- <sonar.password></sonar.password> -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>MBK InfoTech Solutions Releases Nexus Repository</name>
-	      <url>http://15.206.212.214:8081/repository/maven-releases/</url>
+	      <url>http://13.127.47.54:8081/repository/maven-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>MBK InfoTech Solutions Snapshot Nexus Repository </name>
-	      <url>http://15.206.212.214:8081/repository/maven-snapshots/</url>
+	      <url>http://13.127.47.54:8081/repository/maven-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
