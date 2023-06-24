@@ -1,0 +1,44 @@
+node
+{
+      //properties([pipelineTriggers([pollSCM('* * * * *')])])
+      
+  //  properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '5', numToKeepStr: '5')), pipelineTriggers([pollSCM('* * * * *')])])
+    
+    def mavenHome = tool name: "Maven3.9.0"
+  
+    
+    
+stage('CheckoutCode')
+{
+git branch: 'DevENV', credentialsId: '050ca4ca-e21e-40e4-ba6d-944deefbd094', url: 'https://github.com/kirankb1169/MBK_Pro.git'
+}
+
+stage('Build')
+{
+  sh "${mavenHome}/bin/mvn clean package"
+}
+
+stage('Execute the SonarQube Report')
+{
+  sh "${mavenHome}/bin/mvn clean package sonar:sonar"
+}
+
+stage('Upload Artifacts Into NexusRepo')
+{
+  sh "${mavenHome}/bin/mvn clean package deploy"
+}
+
+stage('Upload Artifact into Tomcat')
+{
+sshagent(['9002449a-99d9-4953-afe7-04073445be43']) {
+    sh "scp -o StrictHostKeyChecking=no  target/maven-web-application.war ubuntu@13.233.141.151:/opt/apache-tomcat-9.0.75/webapps/"
+}
+}
+
+stage('Email Notification')
+{
+mail bcc: '', body: 'build status', cc: 'tarunchaudhari46@gmail.com', from: '', replyTo: '', subject: 'build status', to: 'bkkumar1139@gmail.com'
+}
+
+
+}
