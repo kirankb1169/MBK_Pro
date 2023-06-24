@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>MBK InfoTech Solutions - Home Page</title>
+<title>MBK InfoTech Solutions - Home Page .....</title>
 <link href="images/LOGO.jpg" rel="icon">
 <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
